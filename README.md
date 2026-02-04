@@ -52,9 +52,10 @@ I enjoy turning data into insights, building automation tools, and creating clea
 ---
 
 ## 🤝 Connect With Me
-- 💻 GitHub: https://github.com/suvakovan  
-- 🔗 LinkedIn: (add your link here)  
-- 📧 Email: (optional)
+- 💻 GitHub: https://github.com/suvakovan
+- 🔗 LinkedIn: https://www.linkedin.com/in/suvakovan
+- 🐦 X: https://x.com/suvakovan
+- 📧 Email: suvasuvakovan@gmail.com
 
 ---
 
