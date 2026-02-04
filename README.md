@@ -79,11 +79,11 @@ I enjoy turning data into insights, building automation tools, and creating clea
 
 ## 📈 GitHub Stats
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=suvakovan&show_icons=true&theme=radical)](https://github.com/suvakovan)
-
+<!-- Streak Details (Working) -->
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=suvakovan&theme=radical)](https://github.com/suvakovan)
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=suvakovan&layout=compact&theme=radical)](https://github.com/suvakovan)
+<!-- Activity Graph (New) -->
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=suvakovan&theme=react)](https://github.com/suvakovan)
 
 </div>
 
