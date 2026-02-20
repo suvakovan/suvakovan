@@ -106,38 +106,6 @@ I enjoy turning data into insights, building automation tools, and creating clea
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- ═══════════════════ TROPHIES ═══════════════════ -->
-
-<div align="center">
-
-## 🏆 GitHub Trophies
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=suvakovan&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies" width="95%" />
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-<!-- ═══════════════════ SNAKE ANIMATION ═══════════════════ -->
-
-<div align="center">
-
-## 🐍 Contribution Snake
-
-<br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/suvakovan/suvakovan/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/suvakovan/suvakovan/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/suvakovan/suvakovan/output/github-snake-dark.svg" width="100%" />
-</picture>
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
 <!-- ═══════════════════ CURRENTLY WORKING ON ═══════════════════ -->
 
 <div align="center">
