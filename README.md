@@ -106,42 +106,6 @@ I enjoy turning data into insights, building automation tools, and creating clea
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- ═══════════════════ GITHUB STATS ═══════════════════ -->
-
-<div align="center">
-
-## 📈 GitHub Analytics
-
-<p><i>✅ Live stats pulled directly from GitHub API — Data updates every 30 minutes</i></p>
-
-<br/>
-
-<!-- GitHub Stats Card — Using reliable instance with cache busting -->
-<a href="https://github.com/suvakovan">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=suvakovan&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=6e40c9&icon_color=6e40c9&text_color=c9d1d9&ring_color=6e40c9&cache_seconds=1800" alt="GitHub Stats" height="180" />
-</a>
-&nbsp;&nbsp;
-<!-- GitHub Streak Stats — Official DenverCoder1 instance -->
-<a href="https://github.com/suvakovan">
-  <img src="https://streak-stats.demolab.com/?user=suvakovan&theme=tokyonight&hide_border=true&background=0d1117&stroke=6e40c9&ring=6e40c9&fire=ff6e40&currStreakLabel=6e40c9&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=8b949e&card_width=400" alt="GitHub Streak" height="180" />
-</a>
-
-<br/><br/>
-
-<!-- Top Languages — Excluding Jupyter Notebook for accurate representation -->
-<a href="https://github.com/suvakovan">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=suvakovan&theme=tokyonight&hide_border=true&layout=compact&langs_count=10&bg_color=0d1117&title_color=6e40c9&text_color=c9d1d9&hide=jupyter%20notebook&cache_seconds=1800" alt="Top Languages" height="180" />
-</a>
-
-<br/><br/>
-
-<!-- Contribution Graph — Official Ashutosh00710 instance -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=suvakovan&bg_color=0d1117&color=6e40c9&line=6e40c9&point=c9d1d9&area=true&area_color=6e40c9&hide_border=true&custom_title=Suvakovan's%20Contribution%20Graph&radius=16" alt="Contribution Graph" width="95%" />
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
 <!-- ═══════════════════ TROPHIES ═══════════════════ -->
 
 <div align="center">
