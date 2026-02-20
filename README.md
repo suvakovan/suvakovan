@@ -1,37 +1,56 @@
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=Hello%20World&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Welcome%20to%20my%20Profile&descAlignY=51&descAlign=62)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:6e40c9&height=300&section=header&text=Suvakovan%20S&fontSize=80&animation=fadeIn&fontAlignY=35&desc=Python%20Developer%20%7C%20Data%20Analytics%20%7C%20MERN%20Stack&descAlignY=55&descAlign=50&fontColor=e6edf3)
 
 <div align="center">
 
-# 👋 I'm Suvakovan S
+<!-- Typing SVG Animation -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6E40C9&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=800&height=100&lines=%F0%9F%91%8B+Hey+there!+I'm+Suvakovan+S;%F0%9F%9A%80+Building+the+future+with+code" alt="Typing SVG" />
+</a>
 
-### 🚀 Python Developer | Data Analytics Enthusiast | MERN Stack Learner
+<br/>
 
-<p align="center">
-<img src="https://komarev.com/ghpvc/?username=suvakovan&label=Profile%20Views&color=blueviolet&style=flat" alt="Profile Views" />
-</p>
+<!-- Profile Views & Followers -->
+<img src="https://komarev.com/ghpvc/?username=suvakovan&label=Profile%20Views&color=6e40c9&style=for-the-badge" alt="Profile Views" />
+&nbsp;
+<a href="https://github.com/suvakovan?tab=followers">
+  <img src="https://img.shields.io/github/followers/suvakovan?label=Followers&style=for-the-badge&color=6e40c9&labelColor=0d1117" alt="Followers" />
+</a>
+&nbsp;
+<a href="https://github.com/suvakovan?tab=repositories&sort=stargazers">
+  <img src="https://img.shields.io/github/stars/suvakovan?label=Total%20Stars&style=for-the-badge&color=6e40c9&labelColor=0d1117" alt="Stars" />
+</a>
 
-[![](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/suvakovan)
-[![](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:suvasuvakovan@gmail.com)
-[![](https://img.shields.io/badge/X-Follow-black?style=for-the-badge&logo=x)](https://x.com/suvakovan)
+<br/><br/>
+
+<!-- Social Badges -->
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/suvakovan)
+[![Email](https://img.shields.io/badge/Gmail-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:suvasuvakovan@gmail.com)
+[![X](https://img.shields.io/badge/X-Follow-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/suvakovan)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/suvakovan)
 
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<!-- ═══════════════════ ABOUT ME ═══════════════════ -->
 
 <div align="center">
   <table border="0">
   <tr>
     <td width="55%" valign="top">
 
-### 👨‍💻 About Me
-I’m a motivated and curious developer with a strong interest in **Python programming, data analytics, and full-stack web development**.  
+### <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> About Me
+
+I'm a motivated and curious developer with a strong interest in **Python programming, data analytics, and full-stack web development**.  
 I enjoy turning data into insights, building automation tools, and creating clean, functional applications.
 
 - 🐍 Strong foundation in **Python**
-- 📊 Hands-on experience with **Data Analysis**
-- 🌐 Building projects with **MERN Stack**
-- 🧩 Solving **DSA problems** daily
-- 🚀 Focused on **Real-world Projects**
+- 📊 Hands-on experience with **Data Analysis & Visualization**
+- 🌐 Building full-stack apps with **MERN Stack**
+- 🧩 Solving **DSA problems** daily on LeetCode
+- � Exploring **Penetration Testing & Cybersecurity**
+- �🚀 Focused on **Real-world Projects & Open Source**
+- 📍 Based in **Vellore, Tamil Nadu, India**
 
     </td>
     <td width="40%" valign="center">
@@ -41,77 +60,163 @@ I enjoy turning data into insights, building automation tools, and creating clea
   </table>
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<!-- ═══════════════════ TECH STACK ═══════════════════ -->
 
 <div align="center">
 
-## 🛠️ Skills & Tools
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> Tech Stack & Tools
 
-### 💻 Programming Languages
+<br/>
+
+### 💻 Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 
 ### 📊 Data & Analytics
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-3F4F75?style=for-the-badge&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 ### 🌐 Web Development
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 ### ⚙️ Tools & Platforms
-![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<!-- ═══════════════════ GITHUB STATS ═══════════════════ -->
 
 <div align="center">
 
-## 📈 GitHub Stats
+## 📈 GitHub Analytics
+
+<br/>
 
 <!-- GitHub Stats Card -->
 <a href="https://github.com/suvakovan">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=suvakovan&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api?username=suvakovan&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=6e40c9&icon_color=6e40c9&text_color=c9d1d9&ring_color=6e40c9" alt="GitHub Stats" height="180" />
 </a>
-
-<!-- GitHub Streak Stats -->
+&nbsp;&nbsp;
+<!-- GitHub Streak Stats — FIXED URL -->
 <a href="https://github.com/suvakovan">
-  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=suvakovan&theme=radical&hide_border=true" alt="GitHub Streak" height="180" />
+  <img src="https://streak-stats.demolab.com/?user=suvakovan&theme=tokyonight&hide_border=true&background=0d1117&stroke=6e40c9&ring=6e40c9&fire=ff6e40&currStreakLabel=6e40c9&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=8b949e" alt="GitHub Streak" height="180" />
 </a>
 
-<br/>
+<br/><br/>
 
 <!-- Top Languages -->
 <a href="https://github.com/suvakovan">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=suvakovan&theme=radical&hide_border=true&layout=compact&langs_count=8" alt="Top Languages" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=suvakovan&theme=tokyonight&hide_border=true&layout=compact&langs_count=10&bg_color=0d1117&title_color=6e40c9&text_color=c9d1d9" alt="Top Languages" height="180" />
 </a>
 
-<br/>
+<br/><br/>
 
-<!-- Contribution Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=suvakovan&theme=radical&hide_border=true&area=true" alt="Contribution Graph" width="100%" />
+<!-- Contribution Graph — FIXED URL -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=suvakovan&bg_color=0d1117&color=6e40c9&line=6e40c9&point=c9d1d9&area=true&area_color=6e40c9&hide_border=true&custom_title=Contribution%20Graph" alt="Contribution Graph" width="95%" />
 
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<!-- ═══════════════════ TROPHIES ═══════════════════ -->
 
 <div align="center">
 
-### 🎯 What I’m Working On
-`Improving Python Skills` • `Data Analytics Projects` • `MERN Applications` • `Automation Scripts`
+## 🏆 GitHub Trophies
 
 <br/>
 
-> *“Learn consistently, build confidently.”*
+<img src="https://github-profile-trophy.vercel.app/?username=suvakovan&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies" width="95%" />
 
 </div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<!-- ═══════════════════ SNAKE ANIMATION ═══════════════════ -->
+
+<div align="center">
+
+## 🐍 Contribution Snake
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/suvakovan/suvakovan/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/suvakovan/suvakovan/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/suvakovan/suvakovan/output/github-snake-dark.svg" width="100%" />
+</picture>
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<!-- ═══════════════════ CURRENTLY WORKING ON ═══════════════════ -->
+
+<div align="center">
+
+## 🎯 What I'm Currently Working On
+
+<br/>
+
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/🐍-Python_Projects-3776AB?style=for-the-badge" />
+      <br/>
+      <sub>Advanced Python & Automation</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/📊-Data_Analytics-150458?style=for-the-badge" />
+      <br/>
+      <sub>Data Science & Visualization</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/🌐-MERN_Stack-61DAFB?style=for-the-badge" />
+      <br/>
+      <sub>Full-Stack Web Applications</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/🔒-Pen_Testing-FF0000?style=for-the-badge" />
+      <br/>
+      <sub>Cybersecurity & Ethical Hacking</sub>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+> *"Learn consistently, build confidently, and never stop shipping."* 🚀
+
+<br/>
+
+<!-- Random Dev Quote -->
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" width="70%" />
+
+</div>
+
+<br/>
+
+<!-- Footer Wave -->
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:6e40c9&height=120&section=footer)
