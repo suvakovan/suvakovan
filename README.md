@@ -118,7 +118,8 @@ I enjoy turning data into insights, building automation tools, and creating clea
 
 <br/>
 
-
+[![LeetCode Rank](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/suvakovan/suvakovan/main/assets/leetcode_stats.json&query=$.rank&label=Rank&style=for-the-badge&color=FFA116&logo=leetcode&logoColor=black)](https://leetcode.com/suvakovan)
+&nbsp;
 [![LeetCode Badge](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/suvakovan)
 &nbsp;
 [![Daily Streak](https://img.shields.io/badge/Daily_Streak-Active-00FF41?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/suvakovan)
@@ -129,7 +130,9 @@ I enjoy turning data into insights, building automation tools, and creating clea
 
 [![LeetCode Activity](https://leetcard.jacoblin.cool/suvakovan?theme=dark&font=Inter&ext=activity&border=1)](https://leetcode.com/suvakovan)
 
+<br/>
 
+<img src="assets/leetcode_candlestick.png" width="90%" alt="LeetCode Weekly OHLC Candlestick Chart" />
 
 </div>
 
