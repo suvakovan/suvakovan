@@ -263,23 +263,7 @@ suvakovan@github:~$ ./stats.sh --trophies
 
 </div>
 
----
 
-<!-- ════════════════════════════════════════════════════════════ -->
-<!--                      CONTRIBUTION                          -->
-<!-- ════════════════════════════════════════════════════════════ -->
-
-```bash
-suvakovan@github:~$ git log --all --graph --oneline --contributions
-```
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=suvakovan&bg_color=0d1117&color=00ff41&line=00ff41&point=ffffff&area=true&hide_border=true" width="100%" />
-
-</div>
-
----
 
 <!-- ════════════════════════════════════════════════════════════ -->
 <!--                        EXIT                                -->
