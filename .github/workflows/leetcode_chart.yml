@@ -1,0 +1,38 @@
+name: Generate LeetCode Candlestick Chart
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # Daily at 06:00 UTC
+  workflow_dispatch:        # Manual trigger
+
+jobs:
+  generate-chart:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests pandas matplotlib
+
+      - name: Generate candlestick chart
+        run: python scripts/generate_chart.py
+
+      - name: Commit and push chart image
+        run: |
+          git config user.name  "suvakovan"
+          git config user.email "suvasuvakovan@gmail.com"
+          git add assets/leetcode_candlestick.png
+          git diff --cached --quiet && echo "No changes" || \
+            git commit -m "chore: update LeetCode candlestick chart [skip ci]" && \
+            git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -214,7 +214,25 @@ suvakovan@github:~$ ./leetcode/query.sh --show activity-heatmap
 
 </div>
 
+```bash
+suvakovan@github:~$ ./leetcode/candlestick.sh --weekly --ohlc
+```
+
+```
+[INFO] Fetching submission calendar for suvakovan ...
+[INFO] Aggregating into weekly OHLC candles ...
+[INFO] Rendering candlestick chart → assets/leetcode_candlestick.png
+[OK]   Chart generated. Open = first solve/day · High = peak day · Low = lowest day · Close = last solve/day
+```
+
+<div align="center">
+
+<img src="assets/leetcode_candlestick.png" width="92%" alt="LeetCode Weekly OHLC Candlestick Chart" />
+
+</div>
+
 ---
+
 
 <!-- ════════════════════════════════════════════════════════════ -->
 <!--                    CAT PROJECTS.LOG                        -->
