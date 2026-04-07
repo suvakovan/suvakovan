@@ -157,3 +157,19 @@ if __name__ == "__main__":
     df = weekly_ohlc(daily)
     plot_light_candlestick(df, OUTPUT_PATH)
     print(f"[OK] Chart generated at {OUTPUT_PATH}")
+
+    # Export OHLC data to JSON for the interactive React app
+    json_data = []
+    for date, row in df.iterrows():
+        json_data.append({
+            "date": date.strftime('%b %d'),
+            "open": int(row['Open']),
+            "high": int(row['High']),
+            "low": int(row['Low']),
+            "close": int(row['Close'])
+        })
+    
+    ohlc_path = os.path.join(os.path.dirname(OUTPUT_PATH), "leetcode_ohlc.json")
+    with open(ohlc_path, "w") as f:
+        json.dump(json_data, f)
+    print(f"[OK] OHLC JSON saved → {ohlc_path}")
