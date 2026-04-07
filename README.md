@@ -86,6 +86,8 @@ I enjoy turning data into insights, building automation tools, and creating clea
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matplotlib/matplotlib-original.svg" height="48" width="48" />
   &nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original.svg" height="48" width="48" />
+  &nbsp;&nbsp;
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" height="48" width="48" alt="Power BI" />
 </p>
 
 ### 🌐 Web Development
