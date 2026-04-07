@@ -33,7 +33,7 @@ jobs:
         run: |
           git config user.name  "suvakovan"
           git config user.email "suvasuvakovan@gmail.com"
-          git add assets/leetcode_candlestick.png
+          git add assets/
           if ! git diff --cached --quiet; then
             git commit -m "chore: update LeetCode candlestick chart [skip ci]"
             git push

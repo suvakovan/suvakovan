@@ -28,17 +28,21 @@ RED         = "#ff4444"
 TEXT_COLOR  = "#c9d1d9"
 GRID_COLOR  = "#21262d"
 
-# ── Fetch submission calendar from LeetCode GraphQL ──────────────────
+# ── Fetch submission calendar & rank from LeetCode GraphQL ─────────────
 GRAPHQL_URL = "https://leetcode.com/graphql"
 QUERY = """
 query userProfileCalendar($username: String!, $year: Int) {
   matchedUser(username: $username) {
+    profile {
+      ranking
+      userAvatar
+    }
     submissionCalendar
   }
 }
 """
 
-def fetch_submission_calendar(username: str) -> dict:
+def fetch_leetcode_data(username: str) -> dict:
     try:
         resp = requests.post(
             GRAPHQL_URL,
@@ -47,8 +51,7 @@ def fetch_submission_calendar(username: str) -> dict:
             timeout=15,
         )
         data = resp.json()
-        raw = data["data"]["matchedUser"]["submissionCalendar"]
-        return json.loads(raw)   # { "timestamp_str": count, ... }
+        return data["data"]["matchedUser"]
     except Exception as e:
         print(f"[WARN] Could not fetch live data: {e}")
         return {}
@@ -181,14 +184,26 @@ def draw_candlestick(df: pd.DataFrame, output_path: str):
 # ── Main ─────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     print(f"[INFO] Fetching LeetCode data for '{LEETCODE_USER}' …")
-    calendar = fetch_submission_calendar(LEETCODE_USER)
+    user_data = fetch_leetcode_data(LEETCODE_USER)
+    
+    # Save rank data to JSON for dynamic badge
+    stats_path = os.path.join(os.path.dirname(OUTPUT_PATH), "leetcode_stats.json")
+    os.makedirs(os.path.dirname(stats_path), exist_ok=True)
+    if user_data and "profile" in user_data:
+        rank = user_data["profile"]["ranking"]
+        # Format rank with commas (e.g. 1,691,179)
+        formatted_rank = f"{rank:,}"
+        with open(stats_path, "w") as f:
+            json.dump({"rank": formatted_rank}, f)
+        print(f"[OK] Rank saved → {stats_path}")
 
-    if not calendar:
+    if not user_data or "submissionCalendar" not in user_data:
         print("[WARN] No submission data returned — generating placeholder chart.")
         # Fallback: generate a placeholder with zeros so the README image doesn't break
         dates = pd.date_range(end=datetime.date.today(), periods=WEEKS_TO_SHOW, freq="W-MON")
         daily = pd.Series(0, index=dates, dtype=float)
     else:
+        calendar = json.loads(user_data["submissionCalendar"])
         daily = build_daily_series(calendar)
 
     df = weekly_ohlc(daily)
