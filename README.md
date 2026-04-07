@@ -132,6 +132,7 @@ I enjoy turning data into insights, building automation tools, and creating clea
 
 <br/>
 
+### [📈 View Interactive Candlestick Chart](https://suvakovan.github.io/suvakovan/)
 <img src="assets/leetcode_candlestick.png" width="90%" alt="LeetCode Weekly OHLC Candlestick Chart" />
 
 </div>
