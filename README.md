@@ -15,7 +15,7 @@
 
 <!-- Typing Prompt -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2500&pause=800&color=00FF41&background=0D110000&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=90&lines=suvakovan%40github%3A~%24+whoami;Python+Dev+%7C+Data+Analytics+%7C+MERN+Stack+%7C+Cybersecurity" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2500&pause=800&color=00FF41&background=0D110000&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=90&lines=suvakovan%40github%3A~%24+whoami;Python+Dev+%7C+Data+Analytics+%7C+MERN+Stack+%7C+Cybersecurity" alt="Typing SVG" />
 </a>
 
 <br/><br/>
