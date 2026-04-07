@@ -132,7 +132,7 @@ I enjoy turning data into insights, building automation tools, and creating clea
 
 <br/>
 
-<img src="assets/leetcode_trend.png" width="90%" alt="LeetCode Trending Submissions Area Chart" />
+<img src="https://media.giphy.com/media/m3lszg64Oezeg/giphy.gif" width="70%" alt="Aesthetic Trending Chart GIF" />
 
 </div>
 
