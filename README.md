@@ -147,22 +147,22 @@ I enjoy turning data into insights, building automation tools, and creating clea
 <table>
   <tr>
     <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/🐍-Python_Projects-3776AB?style=for-the-badge" />
+      <img src="https://img.shields.io/badge/Python_Projects-3776AB?style=for-the-badge&logo=python&logoColor=white" />
       <br/>
       <sub>Advanced Python & Automation</sub>
     </td>
     <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/📊-Data_Analytics-150458?style=for-the-badge" />
+      <img src="https://img.shields.io/badge/Data_Analytics-150458?style=for-the-badge&logo=pandas&logoColor=white" />
       <br/>
       <sub>Data Science & Visualization</sub>
     </td>
     <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/🌐-MERN_Stack-61DAFB?style=for-the-badge" />
+      <img src="https://img.shields.io/badge/MERN_Stack-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
       <br/>
       <sub>Full-Stack Web Applications</sub>
     </td>
     <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/🔒-Pen_Testing-FF0000?style=for-the-badge" />
+      <img src="https://img.shields.io/badge/Pen_Testing-FF0000?style=for-the-badge&logo=kali-linux&logoColor=white" />
       <br/>
       <sub>Cybersecurity & Ethical Hacking</sub>
     </td>
