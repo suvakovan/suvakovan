@@ -130,7 +130,9 @@ I enjoy turning data into insights, building automation tools, and creating clea
 
 [![LeetCode Activity](https://leetcard.jacoblin.cool/suvakovan?theme=dark&font=Inter&ext=activity&border=1)](https://leetcode.com/suvakovan)
 
+<br/>
 
+<img src="assets/leetcode_candlestick.gif" width="90%" alt="Animated LeetCode Candlestick GIF" />
 
 </div>
 

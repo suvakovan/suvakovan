@@ -6,19 +6,20 @@ import pandas as pd
 import matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
+import matplotlib.animation as animation
 
 matplotlib.use('Agg')
 
 LEETCODE_USER = "suvakovan"
-OUTPUT_PATH = "assets/leetcode_trend.png"
-DAYS_TO_SHOW = 120  # Roughly 4 months
+OUTPUT_PATH = "assets/leetcode_candlestick.gif"
+WEEKS_TO_SHOW = 24  # About 6 months
 
 # Theme: Sleek Dark Trending
 BG_COLOR    = "#0d1117"
 TEXT_COLOR  = "#c9d1d9"
 GRID_COLOR  = "#21262d"
-LINE_COLOR  = "#00ff41"
-FILL_COLOR  = "#00ff41"
+UP_COLOR    = "#00ff41"
+DOWN_COLOR  = "#ff0000"
 
 GRAPHQL_URL = "https://leetcode.com/graphql"
 QUERY = """
@@ -65,54 +66,78 @@ def build_daily_series(calendar_data: dict) -> pd.Series:
     s = pd.Series(dates_counts)
     s.index = pd.to_datetime(s.index)
     
-    full_range = pd.date_range(end=datetime.date.today(), periods=DAYS_TO_SHOW, freq='D')
+    # Fill backwards for required duration
+    full_range = pd.date_range(end=datetime.date.today(), periods=WEEKS_TO_SHOW*7, freq='D')
     s = s.reindex(full_range, fill_value=0)
     return s
 
-def plot_trend_chart(s: pd.Series, out_path: str):
+def weekly_ohlc(daily_series: pd.Series) -> pd.DataFrame:
+    df = daily_series.to_frame(name='Volume')
+    weekly = df.resample('W-MON')
+    
+    ohlc = pd.DataFrame({
+        'Open': weekly['Volume'].first(),
+        'High': weekly['Volume'].max(),
+        'Low': weekly['Volume'].min(),
+        'Close': weekly['Volume'].last()
+    })
+    ohlc.fillna(0, inplace=True)
+    return ohlc.tail(WEEKS_TO_SHOW)
+
+def plot_animated_candlestick(df: pd.DataFrame, out_path: str):
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     
-    # Apply a 7-day rolling average to create a smooth "trend"
-    trend = s.rolling(window=7, min_periods=1).mean()
-    
-    fig, ax = plt.subplots(figsize=(10, 4), facecolor=BG_COLOR)
+    fig, ax = plt.subplots(figsize=(10, 5), facecolor=BG_COLOR)
     ax.set_facecolor(BG_COLOR)
     fig.patch.set_facecolor(BG_COLOR)
     
-    dates = trend.index
-    values = trend.values
+    # Pre-calculate bounds
+    max_high = df['High'].max()
+    max_high = max_high * 1.1 if max_high > 0 else 10
+    dates = df.index
     
-    # Plot the vibrant line
-    ax.plot(dates, values, color=LINE_COLOR, linewidth=2.5, alpha=0.9)
-    
-    # Add a glowing area fill under the line
-    ax.fill_between(dates, values, 0, color=FILL_COLOR, alpha=0.15)
-    
-    # Add an explicit subtitle for the current date
-    current_date_str = datetime.date.today().strftime('%B %d, %Y')
-    ax.text(0.5, 0.95, f"As of: {current_date_str}", transform=ax.transAxes, 
-            color="#8b949e", fontsize=11, ha='center', va='top')
-    
-    # Clean styling
-    ax.set_title("LeetCode Submission Trend (7-Day Avg)", color=TEXT_COLOR, pad=25, fontweight='bold', fontsize=14, loc='center')
-    ax.grid(color=GRID_COLOR, linestyle='-', linewidth=1, alpha=0.5)
-    ax.tick_params(colors=TEXT_COLOR)
-    
-    # Remove top/right spines
-    ax.spines['top'].set_visible(False)
-    ax.spines['right'].set_visible(False)
-    ax.spines['left'].set_color(GRID_COLOR)
-    ax.spines['bottom'].set_color(GRID_COLOR)
+    def update(frame):
+        ax.clear()
+        ax.set_facecolor(BG_COLOR)
+        
+        # Current slice of data
+        curr_df = df.iloc[:frame+1]
+        
+        colors = [UP_COLOR if close >= open_ else DOWN_COLOR 
+                  for close, open_ in zip(curr_df['Close'], curr_df['Open'])]
+        
+        # Wicks
+        ax.vlines(curr_df.index, curr_df['Low'], curr_df['High'], color="#444444", linewidth=1.2)
+        
+        # Bodies
+        body_tops = curr_df[['Open', 'Close']].max(axis=1)
+        body_bottoms = curr_df[['Open', 'Close']].min(axis=1)
+        body_heights = body_tops - body_bottoms
+        body_heights[body_heights == 0] = 0.5
+        
+        ax.bar(curr_df.index, body_heights, bottom=body_bottoms, color=colors, edgecolor="#444444", linewidth=1, width=4)
+        
+        subtitleDate = datetime.date.today().strftime('%b %d, %Y')
+        ax.set_title("LeetCode Candlestick Chart", color=TEXT_COLOR, pad=25, fontweight='bold', fontsize=14, loc='center')
+        ax.text(0.5, 0.95, f"As of: {subtitleDate}", transform=ax.transAxes, color="#8b949e", fontsize=11, ha='center', va='top')
+        
+        ax.grid(color=GRID_COLOR, linestyle='-', linewidth=0.5, axis='y')
+        ax.tick_params(colors=TEXT_COLOR)
+        
+        ax.spines['top'].set_visible(False)
+        ax.spines['right'].set_visible(False)
+        ax.spines['left'].set_visible(False)
+        ax.spines['bottom'].set_color("#666666")
 
-    ax.xaxis.set_major_formatter(mdates.DateFormatter('%b %d'))
-    plt.xticks(rotation=0)
+        ax.xaxis.set_major_formatter(mdates.DateFormatter('%b \'%y'))
+        
+        ax.set_ylim(0, max_high)
+        ax.set_xlim(dates[0] - pd.Timedelta(days=7), dates[-1] + pd.Timedelta(days=7))
     
-    # Ensure baseline is exactly 0
-    ax.set_ylim(bottom=0)
-    ax.set_xlim(left=dates[0], right=dates[-1])
+    ani = animation.FuncAnimation(fig, update, frames=len(df), repeat=True, repeat_delay=2000)
     
-    plt.tight_layout()
-    plt.savefig(out_path, dpi=120, transparent=False, bbox_inches='tight', facecolor=BG_COLOR)
+    # Save as GIF using pillow
+    ani.save(out_path, writer='pillow', fps=8)
     plt.close()
 
 if __name__ == "__main__":
@@ -130,11 +155,12 @@ if __name__ == "__main__":
 
     if not user_data or "submissionCalendar" not in user_data:
         print("[WARN] No submission data returned — generating empty chart.")
-        dates = pd.date_range(end=datetime.date.today(), periods=DAYS_TO_SHOW, freq="D")
+        dates = pd.date_range(end=datetime.date.today(), periods=WEEKS_TO_SHOW*7, freq="D")
         daily = pd.Series(0, index=dates, dtype=float)
     else:
         calendar = json.loads(user_data["submissionCalendar"])
         daily = build_daily_series(calendar)
 
-    plot_trend_chart(daily, OUTPUT_PATH)
-    print(f"[OK] Trend Chart generated at {OUTPUT_PATH}")
+    df = weekly_ohlc(daily)
+    plot_animated_candlestick(df, OUTPUT_PATH)
+    print(f"[OK] Animated Chart generated at {OUTPUT_PATH}")
