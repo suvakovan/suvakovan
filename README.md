@@ -232,22 +232,6 @@ suvakovan@github:~$ cat projects.log | grep --status=active
 [BUILD]   📦  Open Source        →  Contributing & Shipping
 ```
 
-```bash
-suvakovan@github:~$ fortune | cowsay
-```
-
-```
- _________________________________________
-/ "Learn consistently, build confidently, \
-\ and never stop shipping." 🚀            /
- -----------------------------------------
-        \   ^__^
-         \  (oo)\_______
-            (__)\       )\/\
-                ||----w |
-                ||     ||
-```
-
 ---
 
 <!-- ════════════════════════════════════════════════════════════ -->
