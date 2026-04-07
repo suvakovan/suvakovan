@@ -262,12 +262,7 @@ suvakovan@github:~$ ./stats.sh --render
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=suvakovan&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9&ring_color=00ff41" width="49%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=suvakovan&theme=chartreuse-dark&hide_border=true&background=0d1117&stroke=00ff41&ring=00ff41&fire=00ff41&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=00ff41&sideLabels=00ff41&dates=c9d1d9" width="49%" />
-
-<br/><br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=suvakovan&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9" width="50%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=suvakovan&theme=chartreuse-dark&hide_border=true&background=0d1117&stroke=00ff41&ring=00ff41&fire=00ff41&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=00ff41&sideLabels=00ff41&dates=c9d1d9" width="80%" />
 
 </div>
 
