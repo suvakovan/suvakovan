@@ -34,8 +34,11 @@ jobs:
           git config user.name  "suvakovan"
           git config user.email "suvasuvakovan@gmail.com"
           git add assets/leetcode_candlestick.png
-          git diff --cached --quiet && echo "No changes" || \
-            git commit -m "chore: update LeetCode candlestick chart [skip ci]" && \
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update LeetCode candlestick chart [skip ci]"
             git push
+          else
+            echo "No changes to commit."
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
