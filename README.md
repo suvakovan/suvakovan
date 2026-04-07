@@ -132,7 +132,7 @@ I enjoy turning data into insights, building automation tools, and creating clea
 
 <br/>
 
-<img src="https://media.giphy.com/media/m3lszg64Oezeg/giphy.gif" width="70%" alt="Aesthetic Trending Chart GIF" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=suvakovan&bg_color=0d1117&color=00ff41&line=00ff41&point=ffffff&area=true&hide_border=true" width="100%" alt="Animated GitHub Trending Chart" />
 
 </div>
 
