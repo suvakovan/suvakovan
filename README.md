@@ -1,70 +1,28 @@
-<!-- ════════════════════════════════════════════════════════════ -->
-<!--                     BOOT SCREEN                           -->
-<!-- ════════════════════════════════════════════════════════════ -->
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:6e40c9&height=300&section=header&text=Suvakovan%20S&fontSize=80&animation=fadeIn&fontAlignY=35&desc=Python%20Developer%20%7C%20Data%20Analytics%20%7C%20MERN%20Stack&descAlignY=55&descAlign=50&fontColor=e6edf3)
 
 <div align="center">
 
-```
-███████╗██╗   ██╗██╗   ██╗ █████╗ ██╗  ██╗ ██████╗ ██╗   ██╗ █████╗ ███╗   ██╗
-██╔════╝██║   ██║██║   ██║██╔══██╗██║ ██╔╝██╔═══██╗██║   ██║██╔══██╗████╗  ██║
-███████╗██║   ██║██║   ██║███████║█████╔╝ ██║   ██║██║   ██║███████║██╔██╗ ██║
-╚════██║██║   ██║╚██╗ ██╔╝██╔══██║██╔═██╗ ██║   ██║╚██╗ ██╔╝██╔══██║██║╚██╗██║
-███████║╚██████╔╝ ╚████╔╝ ██║  ██║██║  ██╗╚██████╔╝ ╚████╔╝ ██║  ██║██║ ╚████║
-╚══════╝ ╚═════╝   ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝   ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═══╝
-```
-
-<!-- Typing Prompt -->
+<!-- Typing SVG Animation -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2500&pause=800&color=00FF41&background=0D110000&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=90&lines=suvakovan%40github%3A~%24+whoami;Python+Dev+%7C+Data+Analytics+%7C+MERN+Stack+%7C+Cybersecurity" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6E40C9&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=800&height=100&lines=%F0%9F%91%8B+Hey+there!+I'm+Suvakovan+S;%F0%9F%9A%80+Building+the+future+with+code" alt="Typing SVG" />
+</a>
+
+<br/>
+
+<!-- Profile Views & Followers -->
+<img src="https://komarev.com/ghpvc/?username=suvakovan&label=Profile%20Views&color=6e40c9&style=for-the-badge" alt="Profile Views" />
+&nbsp;
+<a href="https://github.com/suvakovan?tab=followers">
+  <img src="https://img.shields.io/github/followers/suvakovan?label=Followers&style=for-the-badge&color=6e40c9&labelColor=0d1117" alt="Followers" />
+</a>
+&nbsp;
+<a href="https://github.com/suvakovan?tab=repositories&sort=stargazers">
+  <img src="https://img.shields.io/github/stars/suvakovan?label=Total%20Stars&style=for-the-badge&color=6e40c9&labelColor=0d1117" alt="Stars" />
 </a>
 
 <br/><br/>
 
-<!-- Stats Row -->
-<img src="https://komarev.com/ghpvc/?username=suvakovan&label=Profile+Views&color=00ff41&style=for-the-badge&labelColor=0d1117" />
-&nbsp;
-<a href="https://github.com/suvakovan?tab=followers">
-  <img src="https://img.shields.io/github/followers/suvakovan?label=Followers&style=for-the-badge&color=00ff41&labelColor=0d1117" />
-</a>
-&nbsp;
-<a href="https://github.com/suvakovan?tab=repositories&sort=stargazers">
-  <img src="https://img.shields.io/github/stars/suvakovan?label=Stars&style=for-the-badge&color=00ff41&labelColor=0d1117" />
-</a>
-
-</div>
-
----
-
-<!-- ════════════════════════════════════════════════════════════ -->
-<!--                        WHOAMI                              -->
-<!-- ════════════════════════════════════════════════════════════ -->
-
-```bash
-suvakovan@github:~$ whoami
-```
-
-```
-╔══════════════════════════════════════════════════════════════╗
-║  NAME     : Suvakovan S                                      ║
-║  ROLE     : Python Developer │ Data Analyst │ MERN Dev       ║
-║  LOCATION : Vellore, Tamil Nadu, India  📍                   ║
-║  STATUS   : [■■■■■■■■░░] Building & Shipping                 ║
-╠══════════════════════════════════════════════════════════════╣
-║  🐍  Strong foundation in Python                             ║
-║  📊  Hands-on Data Analysis & Visualization                  ║
-║  🌐  Full-stack apps with MERN Stack                         ║
-║  🧩  Solving DSA problems daily on LeetCode                  ║
-║  🔒  Exploring Penetration Testing & Cybersecurity           ║
-║  🚀  Focused on Real-world Projects & Open Source            ║
-╚══════════════════════════════════════════════════════════════╝
-```
-
-```bash
-suvakovan@github:~$ ./connect.sh
-```
-
-<div align="center">
-
+<!-- Social Badges -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/suvakovan)
 [![Email](https://img.shields.io/badge/Gmail-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:suvasuvakovan@gmail.com)
 [![X](https://img.shields.io/badge/X-Follow-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/suvakovan)
@@ -72,26 +30,47 @@ suvakovan@github:~$ ./connect.sh
 
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- ════════════════════════════════════════════════════════════ -->
-<!--                      LS SKILLS                             -->
-<!-- ════════════════════════════════════════════════════════════ -->
+<!-- ═══════════════════ ABOUT ME ═══════════════════ -->
 
-```bash
-suvakovan@github:~$ ls -la skills/
-```
+<div align="center">
+  <table border="0">
+  <tr>
+    <td width="55%" valign="top">
 
-```
-drwxr-xr-x  languages/
-drwxr-xr-x  data-analytics/
-drwxr-xr-x  web-development/
-drwxr-xr-x  tools-and-platforms/
-```
+### <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> About Me
 
-```bash
-suvakovan@github:~$ ls skills/languages/
-```
+I'm a motivated and curious developer with a strong interest in **Python programming, data analytics, and full-stack web development**.  
+I enjoy turning data into insights, building automation tools, and creating clean, functional applications.
+
+- 🐍 Strong foundation in **Python**
+- 📊 Hands-on experience with **Data Analysis & Visualization**
+- 🌐 Building full-stack apps with **MERN Stack**
+- 🧩 Solving **DSA problems** daily on LeetCode
+- 🔒 Exploring **Penetration Testing & Cybersecurity**
+- 🚀 Focused on **Real-world Projects & Open Source**
+- 📍 Based in **Vellore, Tamil Nadu, India**
+
+    </td>
+    <td width="40%" valign="center">
+      <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%" alt="Coding GIF">
+    </td>
+  </tr>
+  </table>
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<!-- ═══════════════════ TECH STACK ═══════════════════ -->
+
+<div align="center">
+
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> Tech Stack & Tools
+
+<br/>
+
+### 💻 Languages
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -102,9 +81,7 @@ suvakovan@github:~$ ls skills/languages/
   <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" />
 </p>
 
-```bash
-suvakovan@github:~$ ls skills/data-analytics/
-```
+### 📊 Data & Analytics
 
 <p align="center">
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
@@ -113,9 +90,7 @@ suvakovan@github:~$ ls skills/data-analytics/
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
 </p>
 
-```bash
-suvakovan@github:~$ ls skills/web-development/
-```
+### 🌐 Web Development
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
@@ -126,9 +101,7 @@ suvakovan@github:~$ ls skills/web-development/
   <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" />
 </p>
 
-```bash
-suvakovan@github:~$ ls skills/tools-and-platforms/
-```
+### ⚙️ Tools & Platforms
 
 <p align="center">
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
@@ -141,166 +114,69 @@ suvakovan@github:~$ ls skills/tools-and-platforms/
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
 </p>
 
----
+</div>
 
-<!-- ════════════════════════════════════════════════════════════ -->
-<!--                   LEETCODE DASHBOARD                       -->
-<!-- ════════════════════════════════════════════════════════════ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-```bash
-suvakovan@github:~$ cat leetcode/stats.json
-```
-
-```
-╔══════════════════════════════════════════════════════════════════════════╗
-║  ██╗     ███████╗███████╗████████╗ ██████╗ ██████╗ ██████╗ ███████╗    ║
-║  ██║     ██╔════╝██╔════╝╚══██╔══╝██╔════╝██╔═══██╗██╔══██╗██╔════╝    ║
-║  ██║     █████╗  █████╗     ██║   ██║     ██║   ██║██║  ██║█████╗      ║
-║  ██║     ██╔══╝  ██╔══╝     ██║   ██║     ██║   ██║██║  ██║██╔══╝      ║
-║  ███████╗███████╗███████╗   ██║   ╚██████╗╚██████╔╝██████╔╝███████╗    ║
-║  ╚══════╝╚══════╝╚══════╝   ╚═╝    ╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝    ║
-╠══════════════════════════════════════════════════════════════════════════╣
-║  user    : suvakovan                                                     ║
-║  profile : https://leetcode.com/suvakovan                               ║
-╚══════════════════════════════════════════════════════════════════════════╝
-```
+<!-- ═══════════════════ LEETCODE ACTIVITY ═══════════════════ -->
 
 <div align="center">
 
-[![LeetCode Stats](https://leetcard.jacoblin.cool/suvakovan?theme=dark&font=Fira%20Code&ext=heatmap&border=1&radius=10)](https://leetcode.com/suvakovan)
+## 🧩 Problem Solving
+
+<br/>
+
+<img src="assets/leetcode_candlestick.png" width="90%" alt="LeetCode Weekly OHLC Candlestick Chart" />
 
 </div>
 
-```bash
-suvakovan@github:~$ ./leetcode/query.sh --user suvakovan --show ranking
-```
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-```
-┌──────────────────────────────────────────────────────────┐
-│  PROBLEM SOLVING BREAKDOWN                               │
-│  ─────────────────────────────────────────────────────── │
-│  🟢 Easy    [████████████░░░░░░░░]  solving...           │
-│  🟡 Medium  [████████░░░░░░░░░░░░]  solving...           │
-│  🔴 Hard    [████░░░░░░░░░░░░░░░░]  solving...           │
-│  ─────────────────────────────────────────────────────── │
-│  🏆 Topics Mastered:                                     │
-│     Arrays • Strings • Hash Tables • Dynamic Programming │
-│     Linked Lists • Trees • Graphs • Two Pointers         │
-│     Stack & Queue • Sliding Window • Binary Search       │
-└──────────────────────────────────────────────────────────┘
-```
-
-```bash
-suvakovan@github:~$ ./leetcode/query.sh --show badges
-```
+<!-- ═══════════════════ CURRENTLY WORKING ON ═══════════════════ -->
 
 <div align="center">
 
-[![LeetCode Badge](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/suvakovan)
-&nbsp;
-[![Daily Streak](https://img.shields.io/badge/Daily_Streak-Active-00FF41?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/suvakovan)
-&nbsp;
-[![DSA](https://img.shields.io/badge/DSA-Grind_Mode-FF4500?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/suvakovan)
+## 🎯 What I'm Currently Working On
+
+<br/>
+
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/🐍-Python_Projects-3776AB?style=for-the-badge" />
+      <br/>
+      <sub>Advanced Python & Automation</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/📊-Data_Analytics-150458?style=for-the-badge" />
+      <br/>
+      <sub>Data Science & Visualization</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/🌐-MERN_Stack-61DAFB?style=for-the-badge" />
+      <br/>
+      <sub>Full-Stack Web Applications</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/🔒-Pen_Testing-FF0000?style=for-the-badge" />
+      <br/>
+      <sub>Cybersecurity & Ethical Hacking</sub>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+> *"Learn consistently, build confidently, and never stop shipping."* 🚀
+
+<br/>
+
+<!-- Random Dev Quote -->
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" width="70%" />
 
 </div>
 
-```bash
-suvakovan@github:~$ ./leetcode/query.sh --show activity-heatmap
-```
+<br/>
 
-<div align="center">
-
-[![LeetCode Activity](https://leetcard.jacoblin.cool/suvakovan?theme=dark&font=Fira%20Code&ext=activity&border=1)](https://leetcode.com/suvakovan)
-
-</div>
-
-```bash
-suvakovan@github:~$ ./leetcode/candlestick.sh --weekly --ohlc
-```
-
-```
-[INFO] Fetching submission calendar for suvakovan ...
-[INFO] Aggregating into weekly OHLC candles ...
-[INFO] Rendering candlestick chart → assets/leetcode_candlestick.png
-[OK]   Chart generated. Open = first solve/day · High = peak day · Low = lowest day · Close = last solve/day
-```
-
-<div align="center">
-
-<img src="assets/leetcode_candlestick.png" width="92%" alt="LeetCode Weekly OHLC Candlestick Chart" />
-
-</div>
-
----
-
-
-<!-- ════════════════════════════════════════════════════════════ -->
-<!--                    CAT PROJECTS.LOG                        -->
-<!-- ════════════════════════════════════════════════════════════ -->
-
-```bash
-suvakovan@github:~$ cat projects.log | grep --status=active
-```
-
-```
-[ACTIVE]  🐍  Python Projects    →  Advanced Automation & Scripting
-[ACTIVE]  📊  Data Analytics     →  Data Science & Visualization
-[ACTIVE]  🌐  MERN Stack         →  Full-Stack Web Applications
-[ACTIVE]  🔒  Pen Testing        →  Cybersecurity & Ethical Hacking
-[BUILD]   📦  Open Source        →  Contributing & Shipping
-```
-
----
-
-<!-- ════════════════════════════════════════════════════════════ -->
-<!--                     ./STATS.SH                             -->
-<!-- ════════════════════════════════════════════════════════════ -->
-
-```bash
-suvakovan@github:~$ ./stats.sh --render
-```
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=suvakovan&theme=chartreuse-dark&hide_border=true&background=0d1117&stroke=00ff41&ring=00ff41&fire=00ff41&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=00ff41&sideLabels=00ff41&dates=c9d1d9" width="80%" />
-
-</div>
-
-```bash
-suvakovan@github:~$ ./stats.sh --trophies
-```
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=suvakovan&theme=matrix&no-frame=true&no-bg=true&column=7" width="100%" />
-
-</div>
-
-
-
-<!-- ════════════════════════════════════════════════════════════ -->
-<!--                        EXIT                                -->
-<!-- ════════════════════════════════════════════════════════════ -->
-
-```bash
-suvakovan@github:~$ exit
-```
-
-```
-╔══════════════════════════════════════════════════════════════╗
-║                                                              ║
-║   logout                                                     ║
-║                                                              ║
-║   Thanks for visiting. Connection closed.                    ║
-║   [Session Duration: ████████████████ You stayed a while]   ║
-║                                                              ║
-║   $ Come back soon. There's always more to build. 🚀        ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
-```
-
-<div align="center">
-
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:003300,100:00ff41&height=100&section=footer)
-
-</div>
+<!-- Footer Wave -->
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:6e40c9&height=120&section=footer)
