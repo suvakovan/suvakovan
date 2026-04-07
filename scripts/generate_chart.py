@@ -38,7 +38,11 @@ def fetch_leetcode_data(username: str) -> dict:
         resp = requests.post(
             GRAPHQL_URL,
             json={"query": QUERY, "variables": {"username": username}},
-            headers={"Content-Type": "application/json", "Referer": "https://leetcode.com"},
+            headers={
+                "Content-Type": "application/json", 
+                "Referer": "https://leetcode.com",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+            },
             timeout=15,
         )
         resp.raise_for_status()
@@ -84,8 +88,13 @@ def plot_trend_chart(s: pd.Series, out_path: str):
     # Add a glowing area fill under the line
     ax.fill_between(dates, values, 0, color=FILL_COLOR, alpha=0.15)
     
+    # Add an explicit subtitle for the current date
+    current_date_str = datetime.date.today().strftime('%B %d, %Y')
+    ax.text(0.5, 0.95, f"As of: {current_date_str}", transform=ax.transAxes, 
+            color="#8b949e", fontsize=11, ha='center', va='top')
+    
     # Clean styling
-    ax.set_title("LeetCode Submission Trend (7-Day Avg)", color=TEXT_COLOR, pad=15, fontweight='bold', fontsize=14, loc='center')
+    ax.set_title("LeetCode Submission Trend (7-Day Avg)", color=TEXT_COLOR, pad=25, fontweight='bold', fontsize=14, loc='center')
     ax.grid(color=GRID_COLOR, linestyle='-', linewidth=1, alpha=0.5)
     ax.tick_params(colors=TEXT_COLOR)
     
