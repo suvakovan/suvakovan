@@ -13,13 +13,12 @@ LEETCODE_USER = "suvakovan"
 OUTPUT_PATH = "assets/leetcode_candlestick.png"
 WEEKS_TO_SHOW = 24  # About 6 months of data
 
-# Theme: Dark, classic trading platform
-BG_COLOR    = "#0d1117"
-TEXT_COLOR  = "#c9d1d9"
-GRID_COLOR  = "#21262d"
-UP_COLOR    = "#00ff41"  # Green for growth
-DOWN_COLOR  = "#ff0000"  # Red for decline
-MA_COLOR    = "#ffa500"  # Orange for moving average
+# Theme: Clean Light Trading View
+BG_COLOR    = "#ffffff"
+TEXT_COLOR  = "#333333"
+GRID_COLOR  = "#e0e0e0"
+UP_COLOR    = "#00Bf41"  # Classic Green
+DOWN_COLOR  = "#ff3333"  # Classic Red
 
 # ── Fetch submission calendar & rank from LeetCode GraphQL ─────────────
 GRAPHQL_URL = "https://leetcode.com/graphql"
@@ -87,64 +86,49 @@ def weekly_ohlc(daily_series: pd.Series) -> pd.DataFrame:
     ohlc.fillna(0, inplace=True)
     return ohlc.tail(WEEKS_TO_SHOW)
 
-def plot_dark_candlestick(df: pd.DataFrame, out_path: str):
-    """Plot custom raw candlestick + volume + 3-period MA to mimic trading UI without mplfinance dependency."""
+def plot_light_candlestick(df: pd.DataFrame, out_path: str):
+    """Plot custom raw candlestick to mimic exact classic trading UI."""
     # Ensure directory
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     
-    fig = plt.figure(figsize=(10, 6), facecolor=BG_COLOR)
-    # 2 rows for layout: 1 for OHLC, 1 for Volume
-    gs = fig.add_gridspec(3, 1, hspace=0.1)
-    ax1 = fig.add_subplot(gs[0:2, 0])
-    ax2 = fig.add_subplot(gs[2, 0], sharex=ax1)
+    fig, ax = plt.subplots(figsize=(10, 5), facecolor=BG_COLOR)
     
-    ax1.set_facecolor(BG_COLOR)
-    ax2.set_facecolor(BG_COLOR)
+    ax.set_facecolor(BG_COLOR)
     fig.patch.set_facecolor(BG_COLOR)
     
-    # Calculate colors based on Close > Open
+    # Calculate colors based on Close >= Open
     colors = [UP_COLOR if close >= open_ else DOWN_COLOR 
               for close, open_ in zip(df['Close'], df['Open'])]
+    edge_colors = ["#000000" for _ in colors] # Dark edges
     
     dates = df.index
-    # Draw wicks
-    ax1.vlines(dates, df['Low'], df['High'], color=colors, linewidth=1.5)
+    # Draw wicks (thin black or colored lines)
+    ax.vlines(dates, df['Low'], df['High'], color="#444444", linewidth=1.2)
     
     # Draw candle bodies
-    # If Close == Open, make it slightly thicker so it's visible
     body_tops = df[['Open', 'Close']].max(axis=1)
     body_bottoms = df[['Open', 'Close']].min(axis=1)
     body_heights = body_tops - body_bottoms
     body_heights[body_heights == 0] = 0.5 # Minimum height visibility
     
-    ax1.bar(dates, body_heights, bottom=body_bottoms, color=colors, edgecolor=colors, width=4)
-    
-    # Plot 4-period Moving Average on Closing prices (equating roughly to a 1-month MA for weekly candles)
-    if len(df) >= 4:
-        df['MA4'] = df['Close'].rolling(window=4).mean()
-        ax1.plot(dates, df['MA4'], color=MA_COLOR, linewidth=2, label='1-Month MA')
-        ax1.legend(loc="upper left", facecolor=BG_COLOR, edgecolor=GRID_COLOR, labelcolor=TEXT_COLOR)
+    ax.bar(dates, body_heights, bottom=body_bottoms, color=colors, edgecolor="#444444", linewidth=1, width=4)
     
     # Title & styling
-    ax1.set_title(f"LeetCode Activity (Weekly OHLC)", color=TEXT_COLOR, pad=15, fontweight='bold', fontsize=14)
-    for ax in [ax1, ax2]:
-        ax.grid(color=GRID_COLOR, linestyle='-', linewidth=0.5)
-        ax.tick_params(colors=TEXT_COLOR)
-        for spine in ax.spines.values():
-            spine.set_color(GRID_COLOR)
-
-    # Plot Volume
-    ax2.bar(dates, df['Volume'], color=colors, width=4, alpha=0.7)
-    ax2.set_ylabel("Total Solves", color=TEXT_COLOR, fontweight='bold')
-    # hide x labels on ax1
-    plt.setp(ax1.get_xticklabels(), visible=False)
+    ax.set_title("LeetCode Weekly Activity", color=TEXT_COLOR, pad=15, fontweight='bold', fontsize=14, loc='left')
+    ax.grid(color=GRID_COLOR, linestyle='-', linewidth=0.5, axis='y') # Only Y grid like standard
+    ax.tick_params(colors=TEXT_COLOR)
     
+    # Clean up spines
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.spines['left'].set_visible(False)
+    ax.spines['bottom'].set_color("#666666")
+
     # X-axis Date formatting
-    ax2.xaxis.set_major_formatter(mdates.DateFormatter('%b %d'))
-    plt.xticks(rotation=45)
+    ax.xaxis.set_major_formatter(mdates.DateFormatter('%b \'%y'))
     
     plt.tight_layout()
-    plt.savefig(out_path, dpi=120, transparent=False, bbox_inches='tight', facecolor=BG_COLOR)
+    plt.savefig(out_path, dpi=150, transparent=False, bbox_inches='tight', facecolor=BG_COLOR)
     plt.close()
 
 # ── Main ─────────────────────────────────────────────────────────────
@@ -171,5 +155,5 @@ if __name__ == "__main__":
         daily = build_daily_series(calendar)
 
     df = weekly_ohlc(daily)
-    plot_dark_candlestick(df, OUTPUT_PATH)
+    plot_light_candlestick(df, OUTPUT_PATH)
     print(f"[OK] Chart generated at {OUTPUT_PATH}")
