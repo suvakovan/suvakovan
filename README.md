@@ -130,9 +130,7 @@ I enjoy turning data into insights, building automation tools, and creating clea
 
 [![LeetCode Activity](https://leetcard.jacoblin.cool/suvakovan?theme=dark&font=Inter&ext=activity&border=1)](https://leetcode.com/suvakovan)
 
-<br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=suvakovan&bg_color=0d1117&color=00ff41&line=00ff41&point=ffffff&area=true&hide_border=true" width="100%" alt="Animated GitHub Trending Chart" />
 
 </div>
 
