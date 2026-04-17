@@ -133,6 +133,31 @@ I enjoy turning data into insights, building automation tools, and creating clea
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
+<!-- ═══════════════════ HACKERRANK DASHBOARD ═══════════════════ -->
+
+<div align="center">
+
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> HackerRank Dashboard
+
+<br/>
+
+[![HackerRank Stats](https://hackerrank-stats.vercel.app/api?username=suvasuvakovan&theme=dark)](https://www.hackerrank.com/profile/suvasuvakovan)
+
+<br/>
+
+[![HackerRank Profile](https://img.shields.io/badge/HackerRank-Profile-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/suvasuvakovan)
+&nbsp;
+[![Python Star](https://img.shields.io/badge/Python-3_Stars-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.hackerrank.com/profile/suvasuvakovan)
+&nbsp;
+[![Problem Solving](https://img.shields.io/badge/Problem%20Solving-Certified-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/suvasuvakovan)
+&nbsp;
+[![Python Basic](https://img.shields.io/badge/Python%20Basic-Certified-00FF41?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/suvasuvakovan)
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+
 <!-- ═══════════════════ CURRENTLY WORKING ON ═══════════════════ -->
 
 <div align="center">
