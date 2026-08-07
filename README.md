@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<!-- Typing SVG Animation -->
+<!-- Typing SVG Animation. -->
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6E40C9&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=800&height=100&lines=%F0%9F%91%8B+Hey+there!+I'm+Suvakovan+S;%F0%9F%9A%80+Building+the+future+with+code" alt="Typing SVG" />
 </a>
