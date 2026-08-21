@@ -112,26 +112,6 @@ I enjoy turning data into insights, building automation tools, and creating clea
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> LeetCode Dashboard
 
-<br/>
-
-[![LeetCode Stats](https://leetcard.jacoblin.cool/suvakovan?theme=dark&font=Inter&ext=heatmap&border=1&radius=10)](https://leetcode.com/suvakovan)
-
-<br/>
-
-
-[![LeetCode Badge](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/suvakovan)
-&nbsp;
-[![Daily Streak](https://img.shields.io/badge/Daily_Streak-Active-00FF41?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/suvakovan)
-&nbsp;
-[![DSA](https://img.shields.io/badge/DSA-Grind_Mode-FF4500?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/suvakovan)
-
-<br/>
-
-[![LeetCode Activity](https://leetcard.jacoblin.cool/suvakovan?theme=dark&font=Inter&ext=activity&border=1)](https://leetcode.com/suvakovan)
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <!-- ═══════════════════ HACKERRANK DASHBOARD ═══════════════════ -->
 
