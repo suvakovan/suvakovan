@@ -1,4 +1,4 @@
-!![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:6e40c9&height=300&section=header&text=Suvakovan%20S&fontSize=80&animation=fadeIn&fontAlignY=35&desc=Python%20Developer%20%7C%20Data%20Analytics%20%7C%20MERN%20Stack&descAlignY=55&descAlign=50&fontColor=e6edf3)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:6e40c9&height=300&section=header&text=Suvakovan%20S&fontSize=80&animation=fadeIn&fontAlignY=35&desc=Python%20Developer%20%7C%20Data%20Analytics%20%7C%20MERN%20Stack&descAlignY=55&descAlign=50&fontColor=e6edf3)
 
 <div align="center">
 
